@@ -1,0 +1,41 @@
+name: xic_roster
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.2 <4.0.0'
+
+dependencies:
+  carousel_slider: ^4.2.1
+  firebase_core: ^2.16.0
+  firebase_messaging: ^14.6.8
+  flutter:
+    sdk: flutter
+  flutter_local_notifications: ^15.1.1
+  flutter_secure_storage: ^9.0.0
+  http: ^1.1.0
+  intl: ^0.18.1
+  witt: 1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: fonts/Poppins-Regular.ttf
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/xic-logo.png"

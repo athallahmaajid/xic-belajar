@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "643233303879",
+    "project_id": "notif-tugas-6ff68",
+    "storage_bucket": "notif-tugas-6ff68.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:643233303879:android:d8d01bc8ee37d504c3d062",
+        "android_client_info": {
+          "package_name": "com.example.xic_roster"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrAraVVBs1cyLrgw83SzsIZvh29hkt6hA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
