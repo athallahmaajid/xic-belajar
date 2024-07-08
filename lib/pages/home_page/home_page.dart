@@ -13,9 +13,15 @@ class HomePage extends StatelessWidget {
       length: 2,
       child: Scaffold(
         appBar: AppBar(
-          title: const Text("XI C"),
+          title: const Text(
+            "XII",
+            style: TextStyle(color: Colors.white),
+          ),
           backgroundColor: Theme.of(context).primaryColor,
           bottom: const TabBar(
+            indicatorColor: Colors.amber,
+            labelColor: Colors.amber,
+            unselectedLabelColor: Colors.white,
             tabs: [
               Tab(
                 text: "Roster",

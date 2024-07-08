@@ -1,16 +1,10 @@
 class Schedule {
-  static const monday = ["Fiqih", "Bahasa Indonesia", "Sejarah"];
-  static const tuesday = [
-    "Muhadatsah",
-    "Kimia",
-    "Bahasa Indonesia",
-    "Biologi",
-    "Prakarya"
-  ];
-  static const wednesday = ["Nahwu", "Penjas", "PKN", "Prakarya"];
-  static const thursday = ["Shorof", "Aqidah", "Hadits", "Kimia"];
-  static const friday = ["Kitabah", "Matematika", "Ekskul"];
-  static const saturday = ["Bahasa Inggris", "Tafsir", "Fisika"];
+  static const monday = ["Fiqih", "Fisika", "Bahasa Indonesia"];
+  static const tuesday = ["Ushul Fiqih", "Manhaj", "Balaghah"];
+  static const wednesday = ["Faroid", "Matematika", "PKN/Qowaid Fiqhiyyah"];
+  static const thursday = ["Bahasa Inggris", "Sejarah", "Balaghah", "Nahwu"];
+  static const friday = ["Kimia", "Aqidah"];
+  static const saturday = ["Qira'ah", "Biologi", "PJOK"];
 
   static const dayData = [
     monday,

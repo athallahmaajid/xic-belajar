@@ -1,15 +1,13 @@
 name: xic_roster
 description: A new Flutter project.
 publish_to: 'none'
-version: 0.1.0
+version: 0.1.2
 
 environment:
   sdk: '>=3.1.2 <4.0.0'
 
 dependencies:
   carousel_slider: ^4.2.1
-  firebase_core: ^2.16.0
-  firebase_messaging: ^14.6.8
   flutter:
     sdk: flutter
   flutter_local_notifications: ^15.1.1
@@ -38,4 +36,4 @@ flutter:
 flutter_icons:
   android: true
   ios: true
-  image_path: "assets/xic-logo.png"
+  image_path: "assets/logoxii.png"
