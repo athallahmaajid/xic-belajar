@@ -6,7 +6,7 @@ import 'package:http/http.dart' as http;
 class TaskService {
   static Future<List> getTasks() async {
     final response = await http.get(
-      Uri.parse("https://api-tugas-athallahmaajid.vercel.app/tugas"),
+      Uri.parse("https://api-tugas-athallahmaajid-athallahmaajids-projects.vercel.app/tugas"),
     );
     List result = [];
     final data = json.decode(response.body);
